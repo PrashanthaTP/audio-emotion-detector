@@ -1,8 +1,8 @@
 # Audio Emotion Detector
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-[![Made with Sklearn](https://img.shields.io/badge/Scikit%20Learn-SVM-F7931E?style=for-the-badge&logo=scikit-learn)](https://jupyter.org/try)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Made with Sklearn](https://img.shields.io/badge/Scikit%20Learn-SVM-F7931E?style=for-the-badge&logo=scikit-learn)](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 
 ---
 
