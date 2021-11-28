@@ -24,7 +24,7 @@ Dataset used : [The Ryerson Audio-Visual Database of Emotional Speech and Song (
 
 ## Dataset Reference
 
-```
+```bibtex
 @dataset{livingstone_steven_r_2018_1188976,
   author       = {Livingstone, Steven R. and
                   Russo, Frank A.},
