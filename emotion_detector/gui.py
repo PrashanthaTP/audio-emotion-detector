@@ -81,10 +81,17 @@ def new_window():
 	Statement (01 = 'Kids are talking by the door', 02 = 'Dogs are sitting by the door').\n \
 	Repetition (01 = 1st repetition, 02 = 2nd repetition).\n \
 	Actor (01 to 24. Odd numbered actors are male, even numbered actors are female)."
+    info3 = """\n
+    Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional
+    Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal
+    expressions in North American English. PLoS ONE 13(5): e0196391.
+    https://doi.org/10.1371/journal.pone.0196391.
+    """
+    info4 =  "\nZenodo page - https://zenodo.org/record/1188976"
 
     info_root = tk.Toplevel(root)
-    info_root.geometry('800x300')
-    info_text = tk.Label(info_root,text = info1+info2).pack()
+    info_root.geometry('750x400')
+    info_text = tk.Label(info_root,text = info1+info2+info3+info4).pack()
 
     # info_root.protocol('WM_WINDOW_DELETE',on_closing)
 # def on_closing():
@@ -101,7 +108,7 @@ def select_file():
                                             title = 'Select a audio file',
                                             filetypes = (("all files","*.*"),("wave files",".wav"),("mp3 files",".mp3")))
     
-    print(file_name)
+    print("file name : " ,file_name)
 
     #name.set("Audio file name : " + file_name.split('/')[-1])
     
@@ -212,6 +219,7 @@ def make_prediction(isKnown=1):
         status_bar['text'] = "Select a valid file..."
 
 if __name__=='__main__':
+    print("Welcome !")
     root = create_window()
     create_widgets()
 

@@ -19,7 +19,7 @@ emotions=['neutral', 'calm', 'happy', 'sad', 'angry', 'fearful', 'disgust', 'sur
 #===========================================================================================
 def extract_feature(file_name): 
 
-    print('Extracting the features for the file ' + audio2.split('\\')[-1] + '.......')
+    print('Extracting the features for the file ' + os.path.basename(file_name))
 
     X, sample_rate = librosa.load(file_name)
 
