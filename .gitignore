@@ -1,6 +1,10 @@
 archieve/*
+pyvenv.cfg
+/Scripts/
+/Include/
 *.npy
 *.pkl
+!SVM_emotion_clf_24.pkl
 *.wav
 
 # Byte-compiled / optimized / DLL files
